@@ -109,6 +109,7 @@ ul {
 
 .landingLinks > img {
   width: 200px;
+  padding: 10px;
 }
 
 .firstList {
@@ -162,7 +163,6 @@ ul {
 .firstList label::after {
   content: "❯";
   width: 1em;
-  height: 1em;
   text-align: center;
   transition: all 0.35s;
   margin-right: 10px;
@@ -240,8 +240,8 @@ ul {
 
 .secondList svg {
   fill: rgb(255, 255, 255);
-  width: 32px;
-  height: 32px;
+  width: 27px;
+  height: 27px;
   transition: transform 0s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
