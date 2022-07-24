@@ -169,7 +169,6 @@ ul {
 }
 
 .firstList .content {
-  width: 600px;
   max-height: 0;
   padding: 0 1em;
   background: white;
@@ -197,7 +196,7 @@ ul {
 }
 
 .firstList .content ul {
-  width: 50%;
+  width: 600px;
   margin: auto;
 }
 
