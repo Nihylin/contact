@@ -95,7 +95,6 @@ ul {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   background-color: #080a0a;
@@ -105,11 +104,12 @@ ul {
 
 .landingLinks h1 {
   text-align: center;
+  margin: 30px;
 }
 
 .landingLinks > img {
   width: 200px;
-  padding: 10px;
+  margin: 30px;
 }
 
 .firstList {
@@ -232,6 +232,7 @@ ul {
   justify-content: center;
   align-items: center;
   max-width: 90%;
+  margin-top: auto;
 }
 
 .secondList li {
