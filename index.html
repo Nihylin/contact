@@ -20,9 +20,41 @@
       <img src="img/avatar.png" alt="Photo de Philippe Wanquetin">
       <h1 class="montserrat regular">Philippe <span class="semibold">Wanquetin</span> (@nihylin)</h1>
       <ul class="firstList">
-        <li>
-          <input type="checkbox" id="check">
-          <label for="check">
+        <li class="mail">
+          <input type="checkbox" id="check1">
+          <label for="check1">
+            <img src="img/mail.svg" alt="Icône représentant une enveloppe">
+            <p>Envoyer un message</p>
+          </label>
+          <div class="content">
+            <form
+              action="https://formspree.io/f/xrgnopap"
+              method="POST"
+            >
+            <input type="hidden" name="_language" value="fr" />
+            <ul>
+              <li>
+                <label>
+                  <p>Votre email :</p>
+                  <input type="email" name="email">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <p>Votre message :</p>
+                  <textarea name="message"></textarea>
+                </label>
+              </li>
+              <li>
+                <button type="submit">Envoyer</button>
+              </li>
+            </ul>
+          </form>
+          </div>
+        </li>
+        <li class="info">
+          <input type="checkbox" id="check2">
+          <label for="check2">
             <img src="img/contact.svg" alt="Icône représentant un téléphone et une enveloppe">
             <p>Mes informations de contact</p>
           </label>
@@ -63,6 +95,7 @@
           </a>
         </li>
       </ul>
+
       <ul class="secondList">
         <li>
           <a href="https://api.whatsapp.com/send?phone=0618534190">
@@ -179,6 +212,7 @@
           </a>
         </li>
       </ul>
+
     </div>
   </main>
 </body>

@@ -45,6 +45,10 @@ h6 {
   font-size: 1.1rem;
 }
 
+ul {
+  list-style: none;
+}
+
 .montserrat {
   font-family: 'Montserrat', sans-serif;
 }
@@ -87,10 +91,6 @@ h6 {
 
 /************ CSS ************/
 
-ul {
-  list-style: none;
-}
-
 .landingLinks {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
@@ -112,7 +112,8 @@ ul {
 }
 
 .firstList {
-  max-width: 90%;
+  max-width: 600px;
+  width: 100%;
 }
 
 .firstList > li {
@@ -195,7 +196,7 @@ ul {
 }
 
 .firstList .content ul {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -204,25 +205,80 @@ ul {
   padding: 10px;
 }
 
-.firstList .content ul li svg {
+.firstList .info .content ul li svg {
   margin-right: 10px;
   width: 20px;
 }
 
-.firstList .content ul li a {
+.firstList .info .content a {
   color: #222;
 }
 
-.firstList .content > a {
+.firstList .info .content > a {
   display: block;
   text-align: center;
   width: fit-content;
-  border: 1px black solid;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 10px;
-  color: #333;
   text-decoration: none;
   margin: 10px auto 10px auto;
+  background-color: #e4eef8;
+  transition: all 0.15s;
+}
+
+.firstList .mail .content label {
+  display: unset;
+  justify-content: unset;
+  align-items: unset;
+  cursor: unset;
+}
+
+.firstList .mail .content label::after {
+  all: unset;
+}
+
+.firstList .mail .content ul li {
+  flex-direction: column;
+}
+
+.firstList .mail .content ul li input, .firstList .mail .content textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 10px;
+  margin-top: 5px;
+  font-family: 'Inter';
+  font-size: 1.6rem;
+}
+
+.firstList .mail .content ul li input {
+  position: unset;
+  opacity: unset;
+  min-height: 30px;
+}
+
+.firstList .mail .content textarea {
+  max-width: 100%;
+  min-height: 100px;
+}
+
+.firstList .mail .content button {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+  color: #222;
+  margin: 10px auto 10px auto;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #e4eef8;
+  transition: all 0.15s;
+}
+
+.firstList .mail .content button:hover, .firstList .info .content > a:hover  {
+  background-color: #314558;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .secondList {
