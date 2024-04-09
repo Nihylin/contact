@@ -91,7 +91,7 @@ ul {
 
 /************ CSS ************/
 
-.landingLinks {
+main {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -101,12 +101,12 @@ ul {
   color: #f3f3f3;
 }
 
-.landingLinks h1 {
+main h1 {
   text-align: center;
   margin: 30px;
 }
 
-.landingLinks > img {
+main > img {
   width: 200px;
   margin: 30px;
 }
