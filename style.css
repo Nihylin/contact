@@ -260,6 +260,7 @@ main > img {
 .firstList .mail .content textarea {
   max-width: 100%;
   min-height: 100px;
+  resize: none;
 }
 
 .firstList .mail .content button {
